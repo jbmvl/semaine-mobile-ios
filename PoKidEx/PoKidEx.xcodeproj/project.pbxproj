@@ -7,159 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF21C473184CC49F00702A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C472184CC49F00702A43 /* Foundation.framework */; };
-		EF21C475184CC49F00702A43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C474184CC49F00702A43 /* CoreGraphics.framework */; };
-		EF21C477184CC49F00702A43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C476184CC49F00702A43 /* UIKit.framework */; };
-		EF21C47D184CC49F00702A43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF21C47B184CC49F00702A43 /* InfoPlist.strings */; };
-		EF21C47F184CC49F00702A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C47E184CC49F00702A43 /* main.m */; };
-		EF21C483184CC49F00702A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C482184CC49F00702A43 /* AppDelegate.m */; };
-		EF21C486184CC49F00702A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF21C484184CC49F00702A43 /* Main.storyboard */; };
-		EF21C489184CC49F00702A43 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C488184CC49F00702A43 /* MasterViewController.m */; };
-		EF21C48C184CC49F00702A43 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C48B184CC49F00702A43 /* DetailViewController.m */; };
-		EF21C48E184CC49F00702A43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF21C48D184CC49F00702A43 /* Images.xcassets */; };
-		EF21C495184CC49F00702A43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C494184CC49F00702A43 /* XCTest.framework */; };
-		EF21C496184CC49F00702A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C472184CC49F00702A43 /* Foundation.framework */; };
-		EF21C497184CC49F00702A43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C476184CC49F00702A43 /* UIKit.framework */; };
-		EF21C49F184CC49F00702A43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF21C49D184CC49F00702A43 /* InfoPlist.strings */; };
-		EF21C4A1184CC49F00702A43 /* PoKidExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C4A0184CC49F00702A43 /* PoKidExTests.m */; };
-		EFCDA34A184CE21500D60483 /* DBChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA348184CE21500D60483 /* DBChooser.bundle */; };
-		EFCDA34B184CE21500D60483 /* DBChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA349184CE21500D60483 /* DBChooser.framework */; };
+		EFCDA359184CE84900D60483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA358184CE84900D60483 /* Foundation.framework */; };
+		EFCDA35B184CE84900D60483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA35A184CE84900D60483 /* CoreGraphics.framework */; };
+		EFCDA35D184CE84900D60483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA35C184CE84900D60483 /* UIKit.framework */; };
+		EFCDA363184CE84900D60483 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA361184CE84900D60483 /* InfoPlist.strings */; };
+		EFCDA365184CE84900D60483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCDA364184CE84900D60483 /* main.m */; };
+		EFCDA369184CE84900D60483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCDA368184CE84900D60483 /* AppDelegate.m */; };
+		EFCDA36B184CE84900D60483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA36A184CE84900D60483 /* Images.xcassets */; };
+		EFCDA372184CE84900D60483 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA371184CE84900D60483 /* XCTest.framework */; };
+		EFCDA373184CE84900D60483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA358184CE84900D60483 /* Foundation.framework */; };
+		EFCDA374184CE84900D60483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA35C184CE84900D60483 /* UIKit.framework */; };
+		EFCDA37C184CE84900D60483 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA37A184CE84900D60483 /* InfoPlist.strings */; };
+		EFCDA37E184CE84900D60483 /* PoKidExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCDA37D184CE84900D60483 /* PoKidExTests.m */; };
+		EFCDA389184CE8BE00D60483 /* DBChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA387184CE8BE00D60483 /* DBChooser.bundle */; };
+		EFCDA38A184CE8BE00D60483 /* DBChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA388184CE8BE00D60483 /* DBChooser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF21C498184CC49F00702A43 /* PBXContainerItemProxy */ = {
+		EFCDA375184CE84900D60483 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EF21C467184CC49F00702A43 /* Project object */;
+			containerPortal = EFCDA34D184CE84900D60483 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EF21C46E184CC49F00702A43;
+			remoteGlobalIDString = EFCDA354184CE84900D60483;
 			remoteInfo = PoKidEx;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF21C46F184CC49F00702A43 /* PoKidEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoKidEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF21C472184CC49F00702A43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EF21C474184CC49F00702A43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF21C476184CC49F00702A43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EF21C47A184CC49F00702A43 /* PoKidEx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoKidEx-Info.plist"; sourceTree = "<group>"; };
-		EF21C47C184CC49F00702A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF21C47E184CC49F00702A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF21C480184CC49F00702A43 /* PoKidEx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoKidEx-Prefix.pch"; sourceTree = "<group>"; };
-		EF21C481184CC49F00702A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EF21C482184CC49F00702A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF21C485184CC49F00702A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF21C487184CC49F00702A43 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		EF21C488184CC49F00702A43 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		EF21C48A184CC49F00702A43 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		EF21C48B184CC49F00702A43 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		EF21C48D184CC49F00702A43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EF21C493184CC49F00702A43 /* PoKidExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoKidExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF21C494184CC49F00702A43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EF21C49C184CC49F00702A43 /* PoKidExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoKidExTests-Info.plist"; sourceTree = "<group>"; };
-		EF21C49E184CC49F00702A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF21C4A0184CC49F00702A43 /* PoKidExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoKidExTests.m; sourceTree = "<group>"; };
-		EFCDA348184CE21500D60483 /* DBChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DBChooser.bundle; sourceTree = "<group>"; };
-		EFCDA349184CE21500D60483 /* DBChooser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DBChooser.framework; sourceTree = "<group>"; };
+		EFCDA355184CE84900D60483 /* PoKidEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoKidEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCDA358184CE84900D60483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFCDA35A184CE84900D60483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFCDA35C184CE84900D60483 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFCDA360184CE84900D60483 /* PoKidEx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoKidEx-Info.plist"; sourceTree = "<group>"; };
+		EFCDA362184CE84900D60483 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFCDA364184CE84900D60483 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFCDA366184CE84900D60483 /* PoKidEx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoKidEx-Prefix.pch"; sourceTree = "<group>"; };
+		EFCDA367184CE84900D60483 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFCDA368184CE84900D60483 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFCDA36A184CE84900D60483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFCDA370184CE84900D60483 /* PoKidExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoKidExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCDA371184CE84900D60483 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFCDA379184CE84900D60483 /* PoKidExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoKidExTests-Info.plist"; sourceTree = "<group>"; };
+		EFCDA37B184CE84900D60483 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFCDA37D184CE84900D60483 /* PoKidExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoKidExTests.m; sourceTree = "<group>"; };
+		EFCDA387184CE8BE00D60483 /* DBChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DBChooser.bundle; sourceTree = "<group>"; };
+		EFCDA388184CE8BE00D60483 /* DBChooser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DBChooser.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF21C46C184CC49F00702A43 /* Frameworks */ = {
+		EFCDA352184CE84900D60483 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCDA34B184CE21500D60483 /* DBChooser.framework in Frameworks */,
-				EF21C475184CC49F00702A43 /* CoreGraphics.framework in Frameworks */,
-				EF21C477184CC49F00702A43 /* UIKit.framework in Frameworks */,
-				EF21C473184CC49F00702A43 /* Foundation.framework in Frameworks */,
+				EFCDA38A184CE8BE00D60483 /* DBChooser.framework in Frameworks */,
+				EFCDA35B184CE84900D60483 /* CoreGraphics.framework in Frameworks */,
+				EFCDA35D184CE84900D60483 /* UIKit.framework in Frameworks */,
+				EFCDA359184CE84900D60483 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF21C490184CC49F00702A43 /* Frameworks */ = {
+		EFCDA36D184CE84900D60483 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF21C495184CC49F00702A43 /* XCTest.framework in Frameworks */,
-				EF21C497184CC49F00702A43 /* UIKit.framework in Frameworks */,
-				EF21C496184CC49F00702A43 /* Foundation.framework in Frameworks */,
+				EFCDA372184CE84900D60483 /* XCTest.framework in Frameworks */,
+				EFCDA374184CE84900D60483 /* UIKit.framework in Frameworks */,
+				EFCDA373184CE84900D60483 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF21C466184CC49F00702A43 = {
+		EFCDA34C184CE84900D60483 = {
 			isa = PBXGroup;
 			children = (
-				EF21C478184CC49F00702A43 /* PoKidEx */,
-				EF21C49A184CC49F00702A43 /* PoKidExTests */,
-				EF21C471184CC49F00702A43 /* Frameworks */,
-				EF21C470184CC49F00702A43 /* Products */,
+				EFCDA35E184CE84900D60483 /* PoKidEx */,
+				EFCDA377184CE84900D60483 /* PoKidExTests */,
+				EFCDA357184CE84900D60483 /* Frameworks */,
+				EFCDA356184CE84900D60483 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF21C470184CC49F00702A43 /* Products */ = {
+		EFCDA356184CE84900D60483 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF21C46F184CC49F00702A43 /* PoKidEx.app */,
-				EF21C493184CC49F00702A43 /* PoKidExTests.xctest */,
+				EFCDA355184CE84900D60483 /* PoKidEx.app */,
+				EFCDA370184CE84900D60483 /* PoKidExTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF21C471184CC49F00702A43 /* Frameworks */ = {
+		EFCDA357184CE84900D60483 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EFCDA348184CE21500D60483 /* DBChooser.bundle */,
-				EFCDA349184CE21500D60483 /* DBChooser.framework */,
-				EF21C472184CC49F00702A43 /* Foundation.framework */,
-				EF21C474184CC49F00702A43 /* CoreGraphics.framework */,
-				EF21C476184CC49F00702A43 /* UIKit.framework */,
-				EF21C494184CC49F00702A43 /* XCTest.framework */,
+				EFCDA387184CE8BE00D60483 /* DBChooser.bundle */,
+				EFCDA388184CE8BE00D60483 /* DBChooser.framework */,
+				EFCDA358184CE84900D60483 /* Foundation.framework */,
+				EFCDA35A184CE84900D60483 /* CoreGraphics.framework */,
+				EFCDA35C184CE84900D60483 /* UIKit.framework */,
+				EFCDA371184CE84900D60483 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF21C478184CC49F00702A43 /* PoKidEx */ = {
+		EFCDA35E184CE84900D60483 /* PoKidEx */ = {
 			isa = PBXGroup;
 			children = (
-				EF21C481184CC49F00702A43 /* AppDelegate.h */,
-				EF21C482184CC49F00702A43 /* AppDelegate.m */,
-				EF21C484184CC49F00702A43 /* Main.storyboard */,
-				EF21C487184CC49F00702A43 /* MasterViewController.h */,
-				EF21C488184CC49F00702A43 /* MasterViewController.m */,
-				EF21C48A184CC49F00702A43 /* DetailViewController.h */,
-				EF21C48B184CC49F00702A43 /* DetailViewController.m */,
-				EF21C48D184CC49F00702A43 /* Images.xcassets */,
-				EF21C479184CC49F00702A43 /* Supporting Files */,
+				EFCDA367184CE84900D60483 /* AppDelegate.h */,
+				EFCDA368184CE84900D60483 /* AppDelegate.m */,
+				EFCDA36A184CE84900D60483 /* Images.xcassets */,
+				EFCDA35F184CE84900D60483 /* Supporting Files */,
 			);
 			path = PoKidEx;
 			sourceTree = "<group>";
 		};
-		EF21C479184CC49F00702A43 /* Supporting Files */ = {
+		EFCDA35F184CE84900D60483 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF21C47A184CC49F00702A43 /* PoKidEx-Info.plist */,
-				EF21C47B184CC49F00702A43 /* InfoPlist.strings */,
-				EF21C47E184CC49F00702A43 /* main.m */,
-				EF21C480184CC49F00702A43 /* PoKidEx-Prefix.pch */,
+				EFCDA360184CE84900D60483 /* PoKidEx-Info.plist */,
+				EFCDA361184CE84900D60483 /* InfoPlist.strings */,
+				EFCDA364184CE84900D60483 /* main.m */,
+				EFCDA366184CE84900D60483 /* PoKidEx-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EF21C49A184CC49F00702A43 /* PoKidExTests */ = {
+		EFCDA377184CE84900D60483 /* PoKidExTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF21C4A0184CC49F00702A43 /* PoKidExTests.m */,
-				EF21C49B184CC49F00702A43 /* Supporting Files */,
+				EFCDA37D184CE84900D60483 /* PoKidExTests.m */,
+				EFCDA378184CE84900D60483 /* Supporting Files */,
 			);
 			path = PoKidExTests;
 			sourceTree = "<group>";
 		};
-		EF21C49B184CC49F00702A43 /* Supporting Files */ = {
+		EFCDA378184CE84900D60483 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF21C49C184CC49F00702A43 /* PoKidExTests-Info.plist */,
-				EF21C49D184CC49F00702A43 /* InfoPlist.strings */,
+				EFCDA379184CE84900D60483 /* PoKidExTests-Info.plist */,
+				EFCDA37A184CE84900D60483 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,13 +154,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF21C46E184CC49F00702A43 /* PoKidEx */ = {
+		EFCDA354184CE84900D60483 /* PoKidEx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF21C4A4184CC49F00702A43 /* Build configuration list for PBXNativeTarget "PoKidEx" */;
+			buildConfigurationList = EFCDA381184CE84900D60483 /* Build configuration list for PBXNativeTarget "PoKidEx" */;
 			buildPhases = (
-				EF21C46B184CC49F00702A43 /* Sources */,
-				EF21C46C184CC49F00702A43 /* Frameworks */,
-				EF21C46D184CC49F00702A43 /* Resources */,
+				EFCDA351184CE84900D60483 /* Sources */,
+				EFCDA352184CE84900D60483 /* Frameworks */,
+				EFCDA353184CE84900D60483 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -181,133 +168,121 @@
 			);
 			name = PoKidEx;
 			productName = PoKidEx;
-			productReference = EF21C46F184CC49F00702A43 /* PoKidEx.app */;
+			productReference = EFCDA355184CE84900D60483 /* PoKidEx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF21C492184CC49F00702A43 /* PoKidExTests */ = {
+		EFCDA36F184CE84900D60483 /* PoKidExTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF21C4A7184CC49F00702A43 /* Build configuration list for PBXNativeTarget "PoKidExTests" */;
+			buildConfigurationList = EFCDA384184CE84900D60483 /* Build configuration list for PBXNativeTarget "PoKidExTests" */;
 			buildPhases = (
-				EF21C48F184CC49F00702A43 /* Sources */,
-				EF21C490184CC49F00702A43 /* Frameworks */,
-				EF21C491184CC49F00702A43 /* Resources */,
+				EFCDA36C184CE84900D60483 /* Sources */,
+				EFCDA36D184CE84900D60483 /* Frameworks */,
+				EFCDA36E184CE84900D60483 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF21C499184CC49F00702A43 /* PBXTargetDependency */,
+				EFCDA376184CE84900D60483 /* PBXTargetDependency */,
 			);
 			name = PoKidExTests;
 			productName = PoKidExTests;
-			productReference = EF21C493184CC49F00702A43 /* PoKidExTests.xctest */;
+			productReference = EFCDA370184CE84900D60483 /* PoKidExTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF21C467184CC49F00702A43 /* Project object */ = {
+		EFCDA34D184CE84900D60483 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = HETIC;
 				TargetAttributes = {
-					EF21C492184CC49F00702A43 = {
-						TestTargetID = EF21C46E184CC49F00702A43;
+					EFCDA36F184CE84900D60483 = {
+						TestTargetID = EFCDA354184CE84900D60483;
 					};
 				};
 			};
-			buildConfigurationList = EF21C46A184CC49F00702A43 /* Build configuration list for PBXProject "PoKidEx" */;
+			buildConfigurationList = EFCDA350184CE84900D60483 /* Build configuration list for PBXProject "PoKidEx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = EF21C466184CC49F00702A43;
-			productRefGroup = EF21C470184CC49F00702A43 /* Products */;
+			mainGroup = EFCDA34C184CE84900D60483;
+			productRefGroup = EFCDA356184CE84900D60483 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF21C46E184CC49F00702A43 /* PoKidEx */,
-				EF21C492184CC49F00702A43 /* PoKidExTests */,
+				EFCDA354184CE84900D60483 /* PoKidEx */,
+				EFCDA36F184CE84900D60483 /* PoKidExTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF21C46D184CC49F00702A43 /* Resources */ = {
+		EFCDA353184CE84900D60483 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF21C48E184CC49F00702A43 /* Images.xcassets in Resources */,
-				EFCDA34A184CE21500D60483 /* DBChooser.bundle in Resources */,
-				EF21C47D184CC49F00702A43 /* InfoPlist.strings in Resources */,
-				EF21C486184CC49F00702A43 /* Main.storyboard in Resources */,
+				EFCDA363184CE84900D60483 /* InfoPlist.strings in Resources */,
+				EFCDA36B184CE84900D60483 /* Images.xcassets in Resources */,
+				EFCDA389184CE8BE00D60483 /* DBChooser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF21C491184CC49F00702A43 /* Resources */ = {
+		EFCDA36E184CE84900D60483 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF21C49F184CC49F00702A43 /* InfoPlist.strings in Resources */,
+				EFCDA37C184CE84900D60483 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF21C46B184CC49F00702A43 /* Sources */ = {
+		EFCDA351184CE84900D60483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF21C483184CC49F00702A43 /* AppDelegate.m in Sources */,
-				EF21C489184CC49F00702A43 /* MasterViewController.m in Sources */,
-				EF21C47F184CC49F00702A43 /* main.m in Sources */,
-				EF21C48C184CC49F00702A43 /* DetailViewController.m in Sources */,
+				EFCDA369184CE84900D60483 /* AppDelegate.m in Sources */,
+				EFCDA365184CE84900D60483 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF21C48F184CC49F00702A43 /* Sources */ = {
+		EFCDA36C184CE84900D60483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF21C4A1184CC49F00702A43 /* PoKidExTests.m in Sources */,
+				EFCDA37E184CE84900D60483 /* PoKidExTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF21C499184CC49F00702A43 /* PBXTargetDependency */ = {
+		EFCDA376184CE84900D60483 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF21C46E184CC49F00702A43 /* PoKidEx */;
-			targetProxy = EF21C498184CC49F00702A43 /* PBXContainerItemProxy */;
+			target = EFCDA354184CE84900D60483 /* PoKidEx */;
+			targetProxy = EFCDA375184CE84900D60483 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF21C47B184CC49F00702A43 /* InfoPlist.strings */ = {
+		EFCDA361184CE84900D60483 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF21C47C184CC49F00702A43 /* en */,
+				EFCDA362184CE84900D60483 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EF21C484184CC49F00702A43 /* Main.storyboard */ = {
+		EFCDA37A184CE84900D60483 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF21C485184CC49F00702A43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF21C49D184CC49F00702A43 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF21C49E184CC49F00702A43 /* en */,
+				EFCDA37B184CE84900D60483 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -315,7 +290,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF21C4A2184CC49F00702A43 /* Debug */ = {
+		EFCDA37F184CE84900D60483 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,7 +329,7 @@
 			};
 			name = Debug;
 		};
-		EF21C4A3184CC49F00702A43 /* Release */ = {
+		EFCDA380184CE84900D60483 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,7 +362,7 @@
 			};
 			name = Release;
 		};
-		EF21C4A5184CC49F00702A43 /* Debug */ = {
+		EFCDA382184CE84900D60483 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -404,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		EF21C4A6184CC49F00702A43 /* Release */ = {
+		EFCDA383184CE84900D60483 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -421,7 +396,7 @@
 			};
 			name = Release;
 		};
-		EF21C4A8184CC49F00702A43 /* Debug */ = {
+		EFCDA385184CE84900D60483 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -444,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		EF21C4A9184CC49F00702A43 /* Release */ = {
+		EFCDA386184CE84900D60483 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -466,34 +441,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF21C46A184CC49F00702A43 /* Build configuration list for PBXProject "PoKidEx" */ = {
+		EFCDA350184CE84900D60483 /* Build configuration list for PBXProject "PoKidEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF21C4A2184CC49F00702A43 /* Debug */,
-				EF21C4A3184CC49F00702A43 /* Release */,
+				EFCDA37F184CE84900D60483 /* Debug */,
+				EFCDA380184CE84900D60483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF21C4A4184CC49F00702A43 /* Build configuration list for PBXNativeTarget "PoKidEx" */ = {
+		EFCDA381184CE84900D60483 /* Build configuration list for PBXNativeTarget "PoKidEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF21C4A5184CC49F00702A43 /* Debug */,
-				EF21C4A6184CC49F00702A43 /* Release */,
+				EFCDA382184CE84900D60483 /* Debug */,
+				EFCDA383184CE84900D60483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		EF21C4A7184CC49F00702A43 /* Build configuration list for PBXNativeTarget "PoKidExTests" */ = {
+		EFCDA384184CE84900D60483 /* Build configuration list for PBXNativeTarget "PoKidExTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF21C4A8184CC49F00702A43 /* Debug */,
-				EF21C4A9184CC49F00702A43 /* Release */,
+				EFCDA385184CE84900D60483 /* Debug */,
+				EFCDA386184CE84900D60483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF21C467184CC49F00702A43 /* Project object */;
+	rootObject = EFCDA34D184CE84900D60483 /* Project object */;
 }

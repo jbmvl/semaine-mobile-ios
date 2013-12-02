@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF21C46E184CC49F00702A43"
+               BlueprintIdentifier = "EFCDA354184CE84900D60483"
                BuildableName = "PoKidEx.app"
                BlueprintName = "PoKidEx"
                ReferencedContainer = "container:PoKidEx.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF21C492184CC49F00702A43"
+               BlueprintIdentifier = "EFCDA36F184CE84900D60483"
                BuildableName = "PoKidExTests.xctest"
                BlueprintName = "PoKidExTests"
                ReferencedContainer = "container:PoKidEx.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF21C46E184CC49F00702A43"
+            BlueprintIdentifier = "EFCDA354184CE84900D60483"
             BuildableName = "PoKidEx.app"
             BlueprintName = "PoKidEx"
             ReferencedContainer = "container:PoKidEx.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF21C46E184CC49F00702A43"
+            BlueprintIdentifier = "EFCDA354184CE84900D60483"
             BuildableName = "PoKidEx.app"
             BlueprintName = "PoKidEx"
             ReferencedContainer = "container:PoKidEx.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF21C46E184CC49F00702A43"
+            BlueprintIdentifier = "EFCDA354184CE84900D60483"
             BuildableName = "PoKidEx.app"
             BlueprintName = "PoKidEx"
             ReferencedContainer = "container:PoKidEx.xcodeproj">
