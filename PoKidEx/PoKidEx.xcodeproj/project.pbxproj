@@ -22,6 +22,8 @@
 		EF21C497184CC49F00702A43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21C476184CC49F00702A43 /* UIKit.framework */; };
 		EF21C49F184CC49F00702A43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF21C49D184CC49F00702A43 /* InfoPlist.strings */; };
 		EF21C4A1184CC49F00702A43 /* PoKidExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF21C4A0184CC49F00702A43 /* PoKidExTests.m */; };
+		EFCDA34A184CE21500D60483 /* DBChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFCDA348184CE21500D60483 /* DBChooser.bundle */; };
+		EFCDA34B184CE21500D60483 /* DBChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA349184CE21500D60483 /* DBChooser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		EF21C49C184CC49F00702A43 /* PoKidExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoKidExTests-Info.plist"; sourceTree = "<group>"; };
 		EF21C49E184CC49F00702A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF21C4A0184CC49F00702A43 /* PoKidExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoKidExTests.m; sourceTree = "<group>"; };
+		EFCDA348184CE21500D60483 /* DBChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DBChooser.bundle; sourceTree = "<group>"; };
+		EFCDA349184CE21500D60483 /* DBChooser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DBChooser.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCDA34B184CE21500D60483 /* DBChooser.framework in Frameworks */,
 				EF21C475184CC49F00702A43 /* CoreGraphics.framework in Frameworks */,
 				EF21C477184CC49F00702A43 /* UIKit.framework in Frameworks */,
 				EF21C473184CC49F00702A43 /* Foundation.framework in Frameworks */,
@@ -104,6 +109,8 @@
 		EF21C471184CC49F00702A43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFCDA348184CE21500D60483 /* DBChooser.bundle */,
+				EFCDA349184CE21500D60483 /* DBChooser.framework */,
 				EF21C472184CC49F00702A43 /* Foundation.framework */,
 				EF21C474184CC49F00702A43 /* CoreGraphics.framework */,
 				EF21C476184CC49F00702A43 /* UIKit.framework */,
@@ -234,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF21C48E184CC49F00702A43 /* Images.xcassets in Resources */,
+				EFCDA34A184CE21500D60483 /* DBChooser.bundle in Resources */,
 				EF21C47D184CC49F00702A43 /* InfoPlist.strings in Resources */,
 				EF21C486184CC49F00702A43 /* Main.storyboard in Resources */,
 			);
@@ -384,6 +392,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JMDidon/Documents/iOS_Workspace/semaine-mobile-ios/PoKidEx",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoKidEx/PoKidEx-Prefix.pch";
 				INFOPLIST_FILE = "PoKidEx/PoKidEx-Info.plist";
@@ -397,6 +409,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JMDidon/Documents/iOS_Workspace/semaine-mobile-ios/PoKidEx",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoKidEx/PoKidEx-Prefix.pch";
 				INFOPLIST_FILE = "PoKidEx/PoKidEx-Info.plist";
@@ -466,6 +482,7 @@
 				EF21C4A6184CC49F00702A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF21C4A7184CC49F00702A43 /* Build configuration list for PBXNativeTarget "PoKidExTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +491,7 @@
 				EF21C4A9184CC49F00702A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
