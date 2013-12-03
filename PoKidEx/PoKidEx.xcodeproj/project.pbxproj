@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB9F227184DD97100083A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB9F226184DD97100083A14 /* Main.storyboard */; };
+		EFB9F230184DF3E200083A14 /* AddKidCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9F22F184DF3E200083A14 /* AddKidCtrl.m */; };
+		EFB9F233184DF46500083A14 /* KidListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9F232184DF46500083A14 /* KidListCtrl.m */; };
 		EFCDA359184CE84900D60483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA358184CE84900D60483 /* Foundation.framework */; };
 		EFCDA35B184CE84900D60483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA35A184CE84900D60483 /* CoreGraphics.framework */; };
 		EFCDA35D184CE84900D60483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCDA35C184CE84900D60483 /* UIKit.framework */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFB9F226184DD97100083A14 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFB9F22E184DF3E200083A14 /* AddKidCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddKidCtrl.h; sourceTree = "<group>"; };
+		EFB9F22F184DF3E200083A14 /* AddKidCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddKidCtrl.m; sourceTree = "<group>"; };
+		EFB9F231184DF46500083A14 /* KidListCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KidListCtrl.h; sourceTree = "<group>"; };
+		EFB9F232184DF46500083A14 /* KidListCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KidListCtrl.m; sourceTree = "<group>"; };
 		EFCDA355184CE84900D60483 /* PoKidEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoKidEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCDA358184CE84900D60483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFCDA35A184CE84900D60483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +125,11 @@
 				EFCDA367184CE84900D60483 /* AppDelegate.h */,
 				EFCDA368184CE84900D60483 /* AppDelegate.m */,
 				EFCDA36A184CE84900D60483 /* Images.xcassets */,
+				EFB9F226184DD97100083A14 /* Main.storyboard */,
+				EFB9F231184DF46500083A14 /* KidListCtrl.h */,
+				EFB9F232184DF46500083A14 /* KidListCtrl.m */,
+				EFB9F22E184DF3E200083A14 /* AddKidCtrl.h */,
+				EFB9F22F184DF3E200083A14 /* AddKidCtrl.m */,
 				EFCDA35F184CE84900D60483 /* Supporting Files */,
 			);
 			path = PoKidEx;
@@ -229,6 +242,7 @@
 				EFCDA363184CE84900D60483 /* InfoPlist.strings in Resources */,
 				EFCDA36B184CE84900D60483 /* Images.xcassets in Resources */,
 				EFCDA389184CE8BE00D60483 /* DBChooser.bundle in Resources */,
+				EFB9F227184DD97100083A14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB9F230184DF3E200083A14 /* AddKidCtrl.m in Sources */,
+				EFB9F233184DF46500083A14 /* KidListCtrl.m in Sources */,
 				EFCDA369184CE84900D60483 /* AppDelegate.m in Sources */,
 				EFCDA365184CE84900D60483 /* main.m in Sources */,
 			);
@@ -457,6 +473,7 @@
 				EFCDA383184CE84900D60483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFCDA384184CE84900D60483 /* Build configuration list for PBXNativeTarget "PoKidExTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				EFCDA386184CE84900D60483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
