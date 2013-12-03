@@ -186,11 +186,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ajouter un enfant" id="GVn-00-QnQ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="rGN-nZ-pmj"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="xUy-Kv-KMe"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="TRb-ks-QgV">
+                            <connections>
+                                <segue destination="uf2-bb-cYS" kind="unwind" unwindAction="backToKidList:" id="OMw-7x-2vt"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="eiX-XI-9ZJ">
+                            <connections>
+                                <segue destination="uf2-bb-cYS" kind="unwind" unwindAction="backToKidList:" id="LMu-a0-dps"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OuR-lZ-Tgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="uf2-bb-cYS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2449" y="-783"/>
         </scene>

@@ -14,6 +14,11 @@
 
 @implementation KidListCtrl
 
+-(IBAction)backToKidList:(UIStoryboardSegue *)segue
+{
+    
+}
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
