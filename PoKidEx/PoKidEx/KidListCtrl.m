@@ -7,16 +7,52 @@
 //
 
 #import "KidListCtrl.h"
+#import "Kid.h"
+#import "AddKidCtrl.h"
 
 @interface KidListCtrl ()
 
+// Creating the Array that will contain the list of Kids
+@property NSMutableArray *kidList;
+
 @end
+
+
 
 @implementation KidListCtrl
 
+
+// Action trigerred when tapping button "Done" of "Cancel" of the AddKidCtrl
+// ==> Go back to the Kid List
 -(IBAction)backToKidList:(UIStoryboardSegue *)segue
 {
+    // Get the source of the segue's call (e.g : Cancel or Done)
+    AddKidCtrl *source = [segue sourceViewController];
+    Kid *kid = source.kid;
     
+    // If we receive a kid, we add it to the view
+    if(kid != nil)
+    {
+        [self.kidList addObject:kid];
+        [self.tableView reloadData];
+    }
+}
+
+-(void)loadKidsData
+{
+    // Mock of kids, we need to search for this data later
+    Kid *firstKid = [[Kid alloc] init];
+    firstKid.firstName = @"MyName";
+    firstKid.lastName = @"MySurname";
+    firstKid.age = @"666";
+    
+    Kid *secondKid = [[Kid alloc] init];
+    secondKid.firstName = @"Second";
+    secondKid.lastName = @"Name";
+    secondKid.age = @"456";
+    
+    [self.kidList addObject:firstKid];
+    [self.kidList addObject:secondKid];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,6 +67,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Show the kidList when we call this Controller. Then we load the data.
+    self.kidList = [[NSMutableArray alloc] init];
+    [self loadKidsData];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -51,22 +91,24 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.kidList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"ListPrototypeCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    Kid *kid = [self.kidList objectAtIndex:indexPath.row];
+    cell.textLabel.text = kid.firstName;
     
     return cell;
 }
@@ -121,5 +163,14 @@
 }
 
  */
+
+#pragma mark - KidListCtrl : Table view Delegate
+
+/*- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    Kid *tappedItem = [self.kidList objectAtIndex:indexPath.row];
+    tappedItem.completed = !tappedItem.completed;
+    [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+}*/
 
 @end
